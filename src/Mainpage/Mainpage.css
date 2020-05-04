@@ -1,0 +1,17 @@
+.mainimage{
+  
+    width: 10rem;
+    height: 20rem;
+    margin-left: 20rem;
+}
+img {
+    margin-left: 25rem;
+}
+
+.about{
+    margin-left: 25rem;
+    font-size: 4.2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:palevioletred;
+    margin-top: 10rem;
+}
