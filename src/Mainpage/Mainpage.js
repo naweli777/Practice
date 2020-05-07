@@ -5,14 +5,7 @@ import Card from "@material-ui/core/Card";
 class Mainpage extends React.Component {
   constructor(props) {
     super(props);
-    this.background = [
-      "../Imagess/black2.jpg",
-      "../Imagess/black3.jpg",
-      "../Imagess/black4.jpg",
-    ];
-    this.state = { backgroundIndex: 0 };
-
-    this.changeBackground = this.changeBackground.bind(this);
+    
 
     this.state = {
       scrolling: true,
@@ -48,21 +41,9 @@ class Mainpage extends React.Component {
 
     window.addEventListener("scroll", this.colorchange);
   }
-  componentWillUnmount() {
-    if (this.timeout) clearTimeout(this.timeout);
-  }
-  changeBackground () {
-    this.setState(function ({ backgroundIndex }) {
-      const nextBackgroundIndex = ++backgroundIndex % this.backgrounds.length
-
-      return { backgroundIndex: nextBackgroundIndex }
-    }, function () {
-      this.timeout = setTimeout(
-        this.changeBackground,
-        this.props.animDuration * 1000
-      )
-    })
-  }
+ 
+  
+  
   colorchange = (event) => {
     if (window.scrollY === 0 && this.scrolling === true) {
       this.setState({ scrolling: true });
