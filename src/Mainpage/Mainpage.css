@@ -1,17 +1,40 @@
-.mainimage{
-  
-    width: 10rem;
-    height: 20rem;
-    margin-left: 20rem;
+.mainimage {
+  width: 10rem;
+  height: 20rem;
+  margin-left: 20rem;
 }
 img {
-    margin-left: 25rem;
+  margin-left: 25rem;
 }
 
-.about{
-    margin-left: 25rem;
-    font-size: 4.2rem;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color:palevioletred;
-    margin-top: 10rem;
+.about {
+  margin-left: 16rem;
+  font-size: 5.2rem;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: palevioletred;
+  margin-top: 10rem;
+}
+
+.cards {
+    margin-left: 10rem;
+    margin-top: 15rem;
+    padding: 65px;
+    width: 120px;
+    background-color: black;
+
+}
+
+
+.contentheading {
+  color: darkolivegreen;
+  margin-left: 4.2rem;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin-top: 15rem;
+  font-size: 4.2rem;
+}
+
+.content {
+  color: darkmagenta;
+  margin-left: 15rem;
+  font-size: 1.2rem;
 }
