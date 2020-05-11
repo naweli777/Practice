@@ -1,0 +1,14 @@
+.changeimage {
+  /* text-align: center; */
+  width: 100%;
+  height: 100%;
+  margin-left: 25rem;
+}
+.Introcontent {
+  float: right;
+  color: pink;
+  width: 45%;
+  height: 280px;
+  margin-top: -32rem;
+  background-color: white;
+}
